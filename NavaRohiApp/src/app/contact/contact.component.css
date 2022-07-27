@@ -1,0 +1,314 @@
+#header
+{
+    background-color:#282466;
+    width:100%; 
+    color:#ffffff; 
+    font-size:50px;
+    height:100px
+}
+.container-wrapper{
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    max-width: 1490px;
+}
+.font-size-15px{
+   font-size:15px
+}
+.navbar-custom{
+    background-color:#282466;
+    width:100%; 
+    color:#ffffff;
+}
+.ul-nav{
+    float:left; 
+    list-style-type:none;
+    list-style-position:outside;
+    position:relative
+}
+.nav-li {
+    float:left;border-left:2px solid #013e5a; position:relative; width:220px;text-align:center;
+}
+.ul-dropdown-menu
+{
+    background-color:#282466;
+    color:#ffffff;
+}
+/* .wrapper-max-width{
+    max-width: 1490px;
+    width: 100%!important;
+} */
+.container-fluid-wrapper{
+    padding-right: 0% !important;
+    padding-left: 0% !important;
+}
+
+/* .header
+{
+    background-color:red;
+    color: darkblue;
+} */
+
+.navbar .nav-item .dropdown-menu{ display: none; }
+.navbar .nav-item:hover .dropdown-menu{ display: block; }
+.navbar .nav-item .dropdown-menu{ margin-top:0; }
+
+.welcome-section {
+    padding: 2em 8em 0;
+}
+
+.welcome-section .wel-txt {
+    text-align: center;
+    margin-bottom: 5px;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 20px;
+}
+.welcome-section a {
+    background: #1c2951;
+    padding: 8px 14px;
+    color: #fdfdfd;
+    width: 150px !important;
+    margin-top: 22px;
+    border-radius: 66px;
+    border-bottom-right-radius: 1px;
+    border-bottom: 4px solid #06003c;
+    margin-top: 10px;
+}
+.welcome-section h3 {
+    text-align: center;
+    font-size: 28px;
+    color: #048;
+    font-weight: bold;
+    margin: 0px;
+}
+.about-section h3 {
+    text-align: center;
+    font-size: 28px;
+    color: #048;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 14px;
+}
+.entry p, .comment p {
+    margin: 0.75em 0;
+}
+
+.card-layout {
+    padding: 10px;
+    background: #f5f5f5;
+    box-shadow: 0px 0px 10px #000;
+    border: 5px solid #fdfdfd;
+    min-height: 210px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 350px;
+}
+.card-layout:hover {
+    background: #ccc;
+}
+
+.wrap1-aboutus {
+    padding: 70px 8.2em 70px 8.2em;
+    background: #ffffff url('../../assets/img/about_New.jpg') no-repeat center top;
+    /* background-image: s; */
+    display: inline-block;
+    width: 100%;
+}
+
+.wrap1-aboutus .page-title {
+    border: none;
+    color: #fff !important;
+    text-shadow: 0px 0px 5px rgb(0 0 0 / 41%);
+}
+
+#wrap {
+    box-sizing: border-box;
+    padding: 30px 8em 20px 8em;
+   
+}
+#content {
+    float: left;
+    width: 73%;
+    padding: 0em 2em 0em 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#sidebar {
+    margin-left: 73%;
+    width: 28%;
+    padding: 0em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.type-post, .type-page, .type-attachment {
+    margin: 0 0 2em 0;
+    padding: 0 0 0.5em 0;
+    /* border-bottom: 1px dashed #aaa; */
+}
+
+#content .page-title {
+    display: none;
+}
+.page-id-7 .page-title {
+    color: #000 !important;
+}
+.page-title {
+    border-bottom: 1px dotted #ccc;
+}
+.page-title {
+    font-size: 2.0em;
+    padding: 0.1em 0;
+    margin-bottom: 10px;
+}
+.page-title, .entry-title {
+    font-weight: bold;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #004488;
+    line-height: 1.4em;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+.entry {
+    line-height: 1.6em;
+    margin: 0em 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+#sidebar .widget {
+    float: left;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#text-2 {
+    display: none;
+}
+.widget {
+    margin-bottom: 1em;
+    padding: 0em;
+    background: #fff;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+#text-3 {
+    display: block;
+}
+.clearfix {
+    zoom: 1;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.widgettitle {
+    font-size: 22px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    padding: 10px 0.3em;
+    /* margin: -0.5em -0.5em 1em -0.5em; */
+    background: #004488;
+    color: #fff;
+    box-shadow: inset 0 0 1px #bbb;
+    border: 1px solid #004488;
+    /* font-style: italic; */
+}
+
+.secondary .widget .textwidget {
+    background: rgba(0, 68, 136, 0.34);
+    padding: 10px;
+}
+.widget .textwidget {
+    line-height: 1.5em;
+}
+
+.widget ul {
+    list-style: circle inside;
+    color: #333;
+}
+.widget ul {
+    line-height: 1.5em;
+}
+
+.secondary .widget li {
+    border-bottom: 1px dotted #afafaf;
+    line-height: 31px;
+}
+.secondary .widget li a {
+    color: #fff;
+}
+.widget a:link, .widget a:visited {
+    text-decoration: none;
+    color: #666;
+}
+#wrap-contactus{
+    padding: 70px 8.2em 70px 8.2em;
+    background: #ffffff url('../../assets/img/contant-us.jpg') no-repeat center top;
+    display: inline-block;
+    width: 100%;
+}
+#wrap-contactus .page-title {
+    border: none;
+    color: #fff !important;
+    text-shadow: 0px 0px 5px rgb(0 0 0 / 41%);
+}
+.call-to {
+    padding: 37px 8em;
+    background: #048;
+    color: #fff;
+}
+.call-to h2 {
+    float: left;
+    width: 80%;
+    line-height: 45px;
+    margin: 0px;
+    color: #fff;
+}
+.cal-btn {
+    margin-top: 20px;
+}
+#AnythingPopup_BoxContainer1 {
+    width: 980px;
+    height: 460px;
+    background: #FFFFFF;
+    border: 1px solid #4D4D4D;
+    padding: 0;
+    position: fixed;
+    z-index: 99999;
+    cursor: default;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    display: none;
+}
+
+#AnythingPopup_BoxContainerFooter1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000000;
+    opacity: .3;
+    -moz-opacity: .3;
+    filter: alpha(opacity=30);
+    border: 1px solid #4D4D4D;
+    z-index: 999;
+    display: none;
+}
